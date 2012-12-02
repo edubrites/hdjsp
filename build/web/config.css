@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    text-align: center;
+}
+
+.login_table{
+    border:0;
+    padding:0;
+    border-collapse: collapse;
+    border-color:#111111;
+    width:400px;
+    height:205px;
+    background-image: url('img/logon2.jpg');
+}
+
+#principal{
+    width: 1024px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+#principal #logo{
+    width: 1024px;
+    height: 50px;
+    background-color: #336699;
+}
+
+#principal #logo h1{
+    font-family: tahoma;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#principal #menu{
+    width: 200px;
+    height: 800px;
+    background-color: #CDCDCD;
+    float: left;
+    text-align: left;
+}
+
+#principal #menu h2{
+    width: 200px;
+    background-color: #000;
+    color: #FFF;
+    font-family: tahoma;
+    font-size: 18px;
+}
+
+#principal #menu ul{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#principal #menu ul li a{
+    margin-left: 10px;
+    color: #336699;
+    text-decoration: none;
+    line-height: 1.5;
+}
+#principal #menu ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+#principal #direita{
+    height: 800px;
+    width: 820px;
+    background-color: #FFF;
+    float: right;
+}
+
+#principal #rodape{
+    width: 1024px;
+    height: 50px;
+    background: #336699 url('rodape.jpg');
+    clear: both;
+}
+
+#principal #rodape p{
+    color: #FFF;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#abertura{
+    background-color: #FFF;
+}
+
+#abertura h1{
+    color: #000;
+    font-face: disney, tahoma;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#abertura p{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-family: Calibre;
+    color: #333;
+}
+
+#abertura p#im{
+    text-align: center;
+}
+#abertura p img{
+    width: 400px;
+    margin-top: 40px;
+    border: solid #888 10px;
+}
+
+#formulario{
+    background-color: #FFF;
+    text-align: left;
+}
+#formulario form table{
+    margin-top:  50px;
+    margin-left: 100px;
+}
+#formulario form table tr{
+    line-height: 2;
+}
+#formulario form table tr td{
+    padding: 15px;
+    border: dotted #C0C0C0 4px;
+}
+#formulario form table tr td input{
+    height: 25px;
+    background-color: #336699;
+    color: #FFF;
+    font-family: Calibri;
+}
+
+#formulario form table tr #centralizaBotoes{
+    text-align: center;
+}
+#formulario form table tr td .botao{
+    width: 100px;
+    height: 25px;
+    margin-right: 30px;
+}
