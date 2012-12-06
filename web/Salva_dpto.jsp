@@ -1,6 +1,6 @@
-<%--
-    Document   : inicial
-    Created on : 02/12/2012, 18:46:55
+<%-- 
+    Document   : Salva_dpto
+    Created on : 06/12/2012, 15:57:43
     Author     : egbrites
 --%>
 
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>HDJSP Home</title>
+        <title>JSP Page</title>
     </head>
     <body>
         <h1>Hello World!</h1>

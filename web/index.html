@@ -6,14 +6,27 @@
         <link rel="stylesheet" href="config.css" />
     </head>
     <body>
-        <div id="principal">
-            <div id="logo">
-                <h1>HDJSP System</h1>
+         <div id="header">
+            <div id="logo_hd"></div>
+            <span id="tit_sistema"> Projeto Help Desk </span>
+            <div id="logo_uninove"></div>
+            <div class="clear"></div>
+            <div class="linha_azul"></div>
+            <div class="dados_header">
+                <ul>
+                    <li>Data: 06/12/2012</li>
+                    <li>Autor: Eduardo Brites</li>
+                    <li>Status: 06/12/2012</li>
+                </ul>
             </div>
+
+        </div>
+        <div class="clear"></div>
+        <div id="principal">
             <div id="menu">
                 <h2>Clientes</h2>
                 <ul>
-                    <li><a href="cadastrarcli.html" target="centro">Cadastrar</a></li>
+                    <li><a href="cadastrarcli.jsp" target="centro">Cadastrar</a></li>
                     <li><a href="consultarcli.html" target="centro">Consultar</a></li>
                     <li><a href="excluircli.html" target="centro">Excluir</a></li>
                     <li><a href="alterarcli.html" target="centro">Alterar</a></li>
@@ -25,12 +38,24 @@
                     <li><a href="excluirpro.html" target="centro">Excluir</a></li>
                     <li><a href="alterarpro.html" target="centro">Alterar</a></li>
                 </ul>
+                <h2>Usuário</h2>
+                <ul>
+                    <li><a href="cadastraruser.jsp" target="centro">Cadastrar</a></li>
+                    <li><a href="consultaruser.jsp" target="centro">Consultar</a></li>
+                    <li><a href="excluiruser.jsp" target="centro">Excluir</a></li>
+                    <li><a href="alteraruser.jsp" target="centro">Alterar</a></li>
+                </ul>
+                <h2>Departamento</h2>
+                <ul>
+                    <li><a href="cadastrardpto.jsp" target="centro">Cadastrar</a></li>
+                    <li><a href="consultar_dpto.jsp" target="centro">Consultar</a></li>
+                </ul>
             </div>
             <div id="direita">
                 <iframe src="abertura.html" width="818" height="798" frameborder="0" name="centro"></iframe>
             </div>
             <div id="rodape">
-                <p>Desenvolvido por fulano</p>
+                <p>Desenvolvido por Eduardo, Erinaldo, George, Lucas e Samuel</p>
             </div>
         </div>
 

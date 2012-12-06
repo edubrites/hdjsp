@@ -5,10 +5,13 @@
 
 body{
     background-color: #fff;
-    text-align: center;
 }
 
-.login_table{
+.clear{
+    clear: both;
+}
+
+/*.login_table{
     border:0;
     padding:0;
     border-collapse: collapse;
@@ -16,26 +19,71 @@ body{
     width:400px;
     height:205px;
     background-image: url('img/logon2.jpg');
-}
+}*/
 
 #principal{
     width: 1024px;
     height: 900px;
     margin: 0 auto;
     background-color: #FFF;
+    position: relative;
 }
 
-#principal #logo{
+#header{
     width: 1024px;
-    height: 50px;
-    background-color: #336699;
+    margin: 0px 0px 0px 115px;;
+    background-color: #FFF;
+    position: relative;
 }
 
+#logo_hd{
+    background:url('img/logo_hdcenter.png') no-repeat ;
+    margin: 5px;
+    height:60px;
+    width: 154px;
+    position: relative;
+    float: left;
+
+}
+
+#logo_uninove{
+    background:url('img/logo_uninove.jpg') no-repeat ;
+    margin: 5px;
+    height:50px;
+    width: 115px;
+    position: relative;
+    float: right;
+
+}
+
+#header #tit_sistema{
+    color: #336699;
+    position: relative;
+    font-size: 15pt;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+.linha_azul{
+    background-color: #336699;
+    border: 1px darkblue;
+    height: 5px;
+    width: 1024px;
+}
+
+.dados_header{
+    width: 1024px;
+}
+
+.dados_header li{
+        list-style: none;
+        float: left;
+        margin: 0 100px 0 100px;
+
+}
 #principal #logo h1{
     font-family: tahoma;
-    color: #FFF;
-    font-weight: bold;
-    font-size: 30px;
+    color: #336699;
 }
 
 #principal #menu{
@@ -81,6 +129,7 @@ body{
 #principal #rodape{
     width: 1024px;
     height: 50px;
+    text-align: center;
     background: #336699 url('rodape.jpg');
     clear: both;
 }
@@ -130,14 +179,14 @@ body{
     margin-left: 100px;
 }
 #formulario form table tr{
-    line-height: 2;
+    line-height: 1;
 }
 #formulario form table tr td{
     padding: 15px;
     border: dotted #C0C0C0 4px;
 }
 #formulario form table tr td input{
-    height: 25px;
+    height: 20px;
     background-color: #336699;
     color: #FFF;
     font-family: Calibri;

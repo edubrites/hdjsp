@@ -1,6 +1,6 @@
-<%--
-    Document   : cadastro_cliente.jsp
-    Created on : 02/12/2012, 18:44:39
+<%-- 
+    Document   : Salva_dpto
+    Created on : 06/12/2012, 15:57:43
     Author     : egbrites
 --%>
 
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>HDJSP System</title>
+        <title>JSP Page</title>
     </head>
     <body>
         <h1>Hello World!</h1>
